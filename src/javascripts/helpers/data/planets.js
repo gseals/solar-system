@@ -1,0 +1,68 @@
+const planets = [
+  {
+    name: 'Mercury',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Small-dark-green-circle.svg/768px-Small-dark-green-circle.svg.png',
+    description: 'description',
+    isGasPlanet: true,
+    numberOfMoons: 1,
+    nameOfLargestMoon: 'Rick',
+  },
+  {
+    name: 'Venus',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Small-dark-green-circle.svg/768px-Small-dark-green-circle.svg.png',
+    description: 'description',
+    isGasPlanet: true,
+    numberOfMoons: 1,
+    nameOfLargestMoon: 'Rick',
+  },
+  {
+    name: 'Earth',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Small-dark-green-circle.svg/768px-Small-dark-green-circle.svg.png',
+    description: 'description',
+    isGasPlanet: true,
+    numberOfMoons: 1,
+    nameOfLargestMoon: 'Rick',
+  },
+  {
+    name: 'Mars',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Small-dark-green-circle.svg/768px-Small-dark-green-circle.svg.png',
+    description: 'description',
+    isGasPlanet: true,
+    numberOfMoons: 1,
+    nameOfLargestMoon: 'Rick',
+  },
+  {
+    name: 'Jupiter',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Small-dark-green-circle.svg/768px-Small-dark-green-circle.svg.png',
+    description: 'description',
+    isGasPlanet: true,
+    numberOfMoons: 1,
+    nameOfLargestMoon: 'Rick',
+  },
+  {
+    name: 'Saturn',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Small-dark-green-circle.svg/768px-Small-dark-green-circle.svg.png',
+    description: 'description',
+    isGasPlanet: true,
+    numberOfMoons: 1,
+    nameOfLargestMoon: 'Rick',
+  },
+  {
+    name: 'Uranus',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Small-dark-green-circle.svg/768px-Small-dark-green-circle.svg.png',
+    description: 'description',
+    isGasPlanet: true,
+    numberOfMoons: 1,
+    nameOfLargestMoon: 'Rick',
+  },
+  {
+    name: 'Neptune',
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Small-dark-green-circle.svg/768px-Small-dark-green-circle.svg.png',
+    description: 'description',
+    isGasPlanet: true,
+    numberOfMoons: 1,
+    nameOfLargestMoon: 'Rick',
+  },
+];
+
+export default { planets };
