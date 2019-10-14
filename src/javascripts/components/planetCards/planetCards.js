@@ -32,8 +32,11 @@ const event = () => {
   $('.planetPic').hide();
   $('.card').on('mouseenter mouseleave', (e) => {
     const planet = $(e.target);
-    planet.find('.planetPic').toggle();
-    planet.find('.planetName').toggle();
+    planet.find('.planetPic').fadeToggle(500);
+    planet.find('.planetName').hide();
+  });
+  $('.card').mouseleave(() => {
+    $('.planetName').fadeIn(900);
   });
 };
 

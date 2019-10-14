@@ -10,6 +10,7 @@ An application...
 * HTML5, CSS, and Javascript
 * [Bootstrap](https://getbootstrap.com/): free and open-source CSS framework
 * ES6 Modules
+* [jQuery](https://jquery.com/)
 
 
 ## Screenshot(s)
@@ -27,3 +28,9 @@ Page Load
 ## Contributors
 
 * [Gabriel Seals](https://github.com/gseals)
+
+## Sources
+
+* number of moons: [NASA Science Space Place](https://spaceplace.nasa.gov/planets/en/)
+* size of the moons per planet: [NASA Solar System Dynamics](https://ssd.jpl.nasa.gov/?sat_phys_par)
+* gaseous or solid planet: [space.com](https://www.space.com/30372-gas-giants.html)
