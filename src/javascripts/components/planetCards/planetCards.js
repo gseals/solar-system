@@ -11,7 +11,7 @@ const planetCard = () => {
     <div class="card" style="width: 18rem;">
     <img src="${planet.imageUrl}" class="card-img-top planetPic" alt="...">
     <div class="card-body">
-      <h5 class="card-title planetName">${planet.name}</h5>
+      <h5 class="card-title planetName text-center">${planet.name}</h5>
       <div class="planetInfo">
       <p class="card-text">Description: ${planet.description}</p>
     <ul class="list-group list-group-flush">
@@ -37,6 +37,29 @@ const event = () => {
   });
   $('.card').mouseleave(() => {
     $('.planetName').fadeIn(900);
+  });
+  $('.card').on('click', () => {
+    for (let i = 0; i < status.planets.length; i += 1) {
+      const planet = status.planets[i];
+      util.printToDom('card-place', '');
+      const lomString = `
+    <div class="card" style="width: 18rem;">
+    <img src="${planet.imageUrl}" class="card-img-top planetPic" alt="...">
+    <div class="card-body">
+      <h5 class="card-title planetName text-center">${planet.name}</h5>
+      <div class="planetInfo">
+      <p class="card-text">Description: ${planet.description}</p>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Gaseous Planet: ${planet.isGasPlanet}</li>
+      <li class="list-group-item">Number of moons: ${planet.numberOfMoons}</li>
+      <li class="list-group-item">Name of Largest Moon: ${planet.nameOfLargestMoon}</li>
+    </ul>
+    </div>
+  </div>
+  </div>
+  <p></p>`;
+      util.printToDom('single-card', lomString);
+    }
   });
 };
 
