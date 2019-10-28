@@ -1,23 +1,23 @@
 const planets = [
   {
     name: 'Mercury',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Small-dark-green-circle.svg/768px-Small-dark-green-circle.svg.png',
+    imageUrl: 'src/images/mercury.png',
     description: 'description',
     isGasPlanet: false,
     numberOfMoons: 0,
-    nameOfLargestMoon: '',
+    nameOfLargestMoon: 'No moons surround Mercury',
   },
   {
     name: 'Venus',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Small-dark-green-circle.svg/768px-Small-dark-green-circle.svg.png',
+    imageUrl: 'src/images/venus.png',
     description: 'description',
     isGasPlanet: false,
     numberOfMoons: 0,
-    nameOfLargestMoon: '',
+    nameOfLargestMoon: 'No moons surround Venus',
   },
   {
     name: 'Earth',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Small-dark-green-circle.svg/768px-Small-dark-green-circle.svg.png',
+    imageUrl: 'src/images/earth.png',
     description: 'description',
     isGasPlanet: false,
     numberOfMoons: 1,
@@ -25,7 +25,7 @@ const planets = [
   },
   {
     name: 'Mars',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Small-dark-green-circle.svg/768px-Small-dark-green-circle.svg.png',
+    imageUrl: 'src/images/mars.png',
     description: 'description',
     isGasPlanet: false,
     numberOfMoons: 2,
@@ -33,7 +33,7 @@ const planets = [
   },
   {
     name: 'Jupiter',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Small-dark-green-circle.svg/768px-Small-dark-green-circle.svg.png',
+    imageUrl: 'src/images/jupiter.png',
     description: 'description',
     isGasPlanet: true,
     numberOfMoons: 79,
@@ -41,7 +41,7 @@ const planets = [
   },
   {
     name: 'Saturn',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Small-dark-green-circle.svg/768px-Small-dark-green-circle.svg.png',
+    imageUrl: 'src/images/saturn.png',
     description: 'description',
     isGasPlanet: true,
     numberOfMoons: '53 confirm, 9 unconfirmed',
@@ -49,7 +49,7 @@ const planets = [
   },
   {
     name: 'Uranus',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Small-dark-green-circle.svg/768px-Small-dark-green-circle.svg.png',
+    imageUrl: 'src/images/uranus.png',
     description: 'description',
     isGasPlanet: true,
     numberOfMoons: 27,
@@ -57,7 +57,7 @@ const planets = [
   },
   {
     name: 'Neptune',
-    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Small-dark-green-circle.svg/768px-Small-dark-green-circle.svg.png',
+    imageUrl: 'src/images/neptune.png',
     description: 'description',
     isGasPlanet: true,
     numberOfMoons: '13 confirmed, 1 awaiting confirmation',
