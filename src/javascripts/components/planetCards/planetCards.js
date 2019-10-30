@@ -38,33 +38,6 @@ const event = () => {
   $('.card').mouseleave(() => {
     $('.planetName').fadeIn(900);
   });
-  $('.card').on('click', () => {
-    for (let i = 0; i < status.planets.length; i += 1) {
-      const planet = status.planets[i];
-      util.printToDom('card-place', '');
-      const lomString = `
-    <div class="newCard" style="width: 18rem;">
-    <img src="${planet.imageUrl}" class="card-img-top planetPic" alt="...">
-    <div class="card-body">
-      <h5 class="card-title planetName text-center list-group-item">${planet.name}</h5>
-      <div class="planetInfo">
-      <p class="card-text list-group-item">Description: ${planet.description}</p>
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">Gaseous Planet: ${planet.isGasPlanet}</li>
-      <li class="list-group-item">Number of moons: ${planet.numberOfMoons}</li>
-      <li class="list-group-item">Name of Largest Moon: ${planet.nameOfLargestMoon}</li>
-    </ul>
-    </div>
-  </div>
-  </div>
-  <p></p>`;
-      util.printToDom('single-card', lomString);
-    }
-  });
-  $('.newCard').on('click', () => {
-    planetCard();
-    util.printToDom('single-card', '');
-  });
 };
 
 export default { planetCard, event };
