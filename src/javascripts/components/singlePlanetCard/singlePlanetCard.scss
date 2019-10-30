@@ -1,12 +1,18 @@
 .newCard {
+  width: 30rem;
+  background-color: gray;
   position:absolute;
   top:50%;
   left:50%;
-  top:70%;
+  top:60%;
   transform:translate(-50%,-50%);
   -ms-transform:translate(-50%,-50%)
 };
 
 .close :hover {
   color: red;
+}
+
+img {
+  width: 288px;
 }
