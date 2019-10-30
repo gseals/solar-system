@@ -11,19 +11,19 @@ const singleCard = () => {
     for (let i = 0; i < planets.length; i += 1) {
       const planet = planets[i];
       const lomString = `
-  <div class="newCard" style="width: 18rem;">
+  <div class="newCard">
     <button type="button" class="close" aria-label="Close">
     <span aria-hidden="true">&times;</span>
     </button>
   <img src="${planet.imageUrl}" class="card-img-top planetPic" alt="...">
   <div class="card-body">
-    <h5 class="card-title planetName2 text-center list-group-item">${planet.name}</h5>
+    <h5 class="card-title planetName2 text-center">${planet.name}</h5>
     <div class="planetInfo">
-    <p class="card-text list-group-item">Description: ${planet.description}</p>
+    <p class="card-text">${planet.description}</p>
   <ul class="list-group list-group-flush">
-    <li class="list-group-item">Gaseous Planet: ${planet.isGasPlanet}</li>
-    <li class="list-group-item">Number of moons: ${planet.numberOfMoons}</li>
-    <li class="list-group-item">Name of Largest Moon: ${planet.nameOfLargestMoon}</li>
+    <li>Gaseous Planet: ${planet.isGasPlanet}</li>
+    <li>Number of moons: ${planet.numberOfMoons}</li>
+    <li>Name of Largest Moon: ${planet.nameOfLargestMoon}</li>
   </ul>
   </div>
 </div>

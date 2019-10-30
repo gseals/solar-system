@@ -16,13 +16,13 @@ An application...
 ## Screenshot(s)
 
 Page Load
-![Main View]()
+![Main View](https://raw.githubusercontent.com/gseals/solar-system/master/src/images/1mainview.png)
 
 Card Hover
-![]()
+![Card Hover](https://raw.githubusercontent.com/gseals/solar-system/master/src/images/1hover.png)
 
 Single Card
-![]()
+![Single Card]()
 
 ## Instructions for how to run the project
 
