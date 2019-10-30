@@ -2,13 +2,14 @@ import $ from 'jquery';
 import status from '../../helpers/data/planets';
 import util from '../../helpers/utilities';
 import './singlePlanetCard.scss';
-import planets from '../planetCards/planetCards';
+import multiPlanet from '../planetCards/planetCards';
+
+const planets = status.plane();
 
 const singleCard = () => {
   $('.card').on('click', () => {
-    for (let i = 0; i < status.planets.length; i += 1) {
-      const planet = status.planets[i];
-      util.printToDom('card-place', '');
+    for (let i = 0; i < planets.length; i += 1) {
+      const planet = planets[i];
       const lomString = `
   <div class="newCard" style="width: 18rem;">
     <button type="button" class="close" aria-label="Close">
@@ -29,11 +30,12 @@ const singleCard = () => {
 </div>
 <p></p>`;
       util.printToDom('single-card', lomString);
+      util.printToDom('card-place', '');
     }
     $('.close').on('click', () => {
       util.printToDom('single-card', '');
-      planets.planetCard();
-      planets.event();
+      multiPlanet.planetCard();
+      multiPlanet.event();
     });
   });
 };
