@@ -33,6 +33,7 @@ const singleCard = () => {
     $('.close').on('click', () => {
       util.printToDom('single-card', '');
       planets.planetCard();
+      planets.event();
     });
   });
 };
