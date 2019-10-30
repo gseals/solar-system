@@ -21,3 +21,11 @@ h1 {
 .newCard {
   color: black;
 }
+
+.planetName {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  -ms-transform:translate(-50%,-50%)
+}
