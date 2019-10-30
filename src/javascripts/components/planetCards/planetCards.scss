@@ -1,5 +1,7 @@
 .card {
   margin: 10px;
+  background-color: black;
+  color: white;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -12,3 +14,4 @@
     pointer-events: none;
   }
 };
+
