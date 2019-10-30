@@ -1,68 +1,78 @@
-const planets = [
+const allPlanets = [
   {
+    id: 0,
     name: 'Mercury',
     imageUrl: 'src/images/mercury.png',
-    description: 'description',
+    description: 'Mercury is the smallest planet in our solar system and only slightly larger than Earth\'s Moon. Mercury is the fastest planet, zipping around the Sun every 88 Earth days.',
     isGasPlanet: false,
     numberOfMoons: 0,
     nameOfLargestMoon: 'No moons surround Mercury',
   },
   {
+    id: 1,
     name: 'Venus',
     imageUrl: 'src/images/venus.png',
-    description: 'description',
+    description: 'Venus spins slowly in the opposite direction from most planets. A thick atmosphere traps heat in a runaway greenhouse effect, making it the hottest planet in our solar system.',
     isGasPlanet: false,
     numberOfMoons: 0,
     nameOfLargestMoon: 'No moons surround Venus',
   },
   {
+    id: 2,
     name: 'Earth',
     imageUrl: 'src/images/earth.png',
-    description: 'description',
+    description: 'Earth—our home planet—is the only place we know of so far that’s inhabited by living things. It\'s also the only planet in our solar system with liquid water on the surface.',
     isGasPlanet: false,
     numberOfMoons: 1,
     nameOfLargestMoon: 'Moon',
   },
   {
+    id: 3,
     name: 'Mars',
     imageUrl: 'src/images/mars.png',
-    description: 'description',
+    description: 'Mars is a dusty, cold, desert world with a very thin atmosphere. There is strong evidence Mars was—billions of years ago—wetter and warmer, with a thicker atmosphere.',
     isGasPlanet: false,
     numberOfMoons: 2,
     nameOfLargestMoon: 'Phobos',
   },
   {
+    id: 4,
     name: 'Jupiter',
     imageUrl: 'src/images/jupiter.png',
-    description: 'description',
+    description: 'Jupiter is more than twice as massive than the other planets of our solar system combined. The giant planet\'s Great Red spot is a centuries-old storm bigger than Earth.',
     isGasPlanet: true,
     numberOfMoons: 79,
     nameOfLargestMoon: 'Ganymede',
   },
   {
+    id: 5,
     name: 'Saturn',
     imageUrl: 'src/images/saturn.png',
-    description: 'description',
+    description: 'Adorned with a dazzling, complex system of icy rings, Saturn is unique in our solar system. The other giant planets have rings, but none are as spectacular as Saturn\'s.',
     isGasPlanet: true,
     numberOfMoons: '53 confirm, 9 unconfirmed',
     nameOfLargestMoon: 'Titan',
   },
   {
+    id: 6,
     name: 'Uranus',
     imageUrl: 'src/images/uranus.png',
-    description: 'description',
+    description: 'Uranus—seventh planet from the Sun—rotates at a nearly 90-degree angle from the plane of its orbit. This unique tilt makes Uranus appear to spin on its side.',
     isGasPlanet: true,
     numberOfMoons: 27,
     nameOfLargestMoon: 'Titania',
   },
   {
+    id: 7,
     name: 'Neptune',
     imageUrl: 'src/images/neptune.png',
-    description: 'description',
+    description: 'Neptune—the eighth and most distant major planet orbiting our Sun—is dark, cold and whipped by supersonic winds. It was the first planet located through mathematical calculations.',
     isGasPlanet: true,
     numberOfMoons: '13 confirmed, 1 awaiting confirmation',
     nameOfLargestMoon: 'Triton',
   },
 ];
 
-export default { planets };
+const plane = () => allPlanets;
+
+export default { plane };
