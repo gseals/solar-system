@@ -7,7 +7,7 @@ import multiPlanet from '../planetCards/planetCards';
 const planets = status.plane();
 
 const singleCard = () => {
-  $('.card').on('click', () => {
+  $('body').on('click', '.card', () => {
     for (let i = 0; i < planets.length; i += 1) {
       const planet = planets[i];
       const lomString = `
