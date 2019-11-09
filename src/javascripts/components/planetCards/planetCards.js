@@ -7,17 +7,16 @@ const planets = status.plane();
 
 const planetCard = () => {
   let domString = '';
-  for (let i = 0; i < planets.length; i += 1) {
-    const planet = planets[i];
+  planets.forEach((planet) => {
     domString += `
-    <div class="card" style="width: 18rem;">
-    <img src="${planet.imageUrl}" id="${i}" class="card-img-top planetPic" alt="...">
+    <div class="card ${planet.id}" id="${planet.name}"style="width: 18rem;">
+    <img src="${planet.imageUrl}" id="${planet.id}" class="card-img-top planetPic" alt="...">
     <div class="card-body">
       <h5 class="card-title planetName text-center">${planet.name}</h5>
       </div>
   </div>
   <p></p>`;
-  }
+  });
   util.printToDom('card-place', domString);
 };
 
