@@ -22,7 +22,10 @@ Card Hover
 ![Card Hover](https://raw.githubusercontent.com/gseals/solar-system/master/src/images/1hover.png)
 
 Single Card
-![Single Card]()
+![Single Card](https://raw.githubusercontent.com/gseals/solar-system/master/src/images/1singleplanet.png)
+
+Search Function
+![Search Function]()
 
 ## Instructions for how to run the project
 
