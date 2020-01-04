@@ -9,10 +9,10 @@ const planetCard = () => {
   let domString = '';
   planets.forEach((planet) => {
     domString += `
-    <div class="card ${planet.id}" id="${planet.name}"style="width: 18rem;">
+    <div class="card ${planet.id} planetFind" id="${planet.name}"style="width: 18rem;">
     <img src="${planet.imageUrl}" id="${planet.id}" class="card-img-top planetPic" alt="...">
     <div class="card-body">
-      <h5 class="card-title planetName text-center">${planet.name}</h5>
+      <h5 class="card-title planetName text-center">${planet.name.toUpperCase()}</h5>
       </div>
   </div>
   <p></p>`;

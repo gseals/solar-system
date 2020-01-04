@@ -1,9 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-  background-position: center;
+  background: url('http://giphygifs.s3.amazonaws.com/media/TOYV34Rz4MSas/giphy.gif') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-image: url('http://giphygifs.s3.amazonaws.com/media/TOYV34Rz4MSas/giphy.gif');
   height: 100vh;
   padding:0;
   margin:0;
