@@ -11,7 +11,6 @@ const singleCard = () => {
     const onePlanet = event.target.id;
     let specificPlanet = [];
     specificPlanet = planets.filter((planet) => planet.name === onePlanet);
-    console.log(specificPlanet);
     let lomString = '';
     lomString = `
     <div class="newCard">
